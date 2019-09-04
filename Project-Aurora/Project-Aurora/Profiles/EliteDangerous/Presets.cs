@@ -243,11 +243,11 @@ namespace Aurora.Profiles.EliteDangerous
                         Command.CyclePreviousPanel,
                         Command.CycleNextPage,
                         Command.CyclePreviousPage,
-                        Command.SelectTarget,
+                        //Command.SelectTarget,
                         Command.CycleNextTarget,
                         Command.CyclePreviousTarget,
 
-                        Command.SelectTarget_Buggy,
+                        //Command.SelectTarget_Buggy,
 
                         Command.MultiCrewCockpitUICycleForward,
                         Command.MultiCrewCockpitUICycleBackward,
@@ -299,6 +299,9 @@ namespace Aurora.Profiles.EliteDangerous
                         Command.MultiCrewSecondaryFire,
 
                         Command.OrderFocusTarget,
+
+                        Command.SelectTarget,
+                        Command.SelectTarget_Buggy,
                     }
                 },
                 {
@@ -431,7 +434,7 @@ namespace Aurora.Profiles.EliteDangerous
 
                 Command.IncreaseWeaponsPower, Command.CycleFireGroupNext, Command.SelectHighestThreat,
                 Command.CycleNextSubsystem, Command.CyclePreviousSubsystem, Command.CycleNextHostileTarget,
-                Command.CyclePreviousHostileTarget
+                Command.CyclePreviousHostileTarget, Command.SelectTarget
             }, new GameStateCondition(
                 flagsSet: Flag.UNSPECIFIED,
                 flagsNotSet: Flag.DOCKED | Flag.LANDED_PLANET

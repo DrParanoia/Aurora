@@ -299,6 +299,9 @@ namespace Aurora.Profiles.EliteDangerous
                         Command.MultiCrewSecondaryFire,
 
                         Command.OrderFocusTarget,
+                        
+                        Command.SelectTarget,
+                        Command.SelectTarget_Buggy,
                     }
                 },
                 {
